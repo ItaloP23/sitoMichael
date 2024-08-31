@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        /* Stili di base */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f8f8;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            text-decoration: none;
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+
+        /* Stili per il main */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .full-width-image {
+            width: 100%;
+            height: 60vh;
+            background-image: url('https://via.placeholder.com/1500x600'); /* URL dell'immagine */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content-section {
+            width: 90%;
+            max-width: 1200px;
+            padding: 40px;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Media Query per schermi piccoli (max-width 768px) */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav {
+                flex-direction: column;
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            nav a {
+                width: 100%;
+                text-align: left;
+                padding: 15px 0;
+                border-bottom: 1px solid #ddd;
+            }
+
+            nav a:last-child {
+                border-bottom: none;
+            }
+
+            .content-section {
+                padding: 20px;
+            }
+        }
+
+        .coaching-packages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    }
+
+    .package-box {
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 30%;
+    }
+
+    .package-box img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .package-box h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .package-box p {
+        font-size: 16px;
+        color: #666;
+        line-height: 1.4;
+    }
+
+    /* Media Query per schermi più piccoli */
+    @media (max-width: 768px) {
+        .coaching-packages {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .package-box {
+            width: 80%;
+            margin-bottom: 30px;
+        }
+    }
+        .contact-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .contact-item img {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+
+    .contact-item a {
+        font-size: 18px;
+        color: #007BFF;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .contact-item a:hover {
+        color: #0056b3;
+    }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo con collegamento alla home -->
+        <a href="index.html" class="logo">Logo</a>
+
+        <!-- Navbar -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#chi-sono">Chi Sono</a>
+            <a href="#coaching">Coaching</a>
+            <a href="#test-consulenza">Test e Consulenza</a>
+            <a href="#training-camp">Training Camp</a>
+            <a href="#contatti">Contatti</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Primo div con immagine a larghezza schermo -->
+        <div class="full-width-image"></div>
+
+        <!-- Secondo div: Chi è Michael Guzzi -->
+        <div class="content-section">
+            <h2>Chi è Michael Guzzi?</h2>
+            <p>Michael Guzzi, classe 1988, è un professionista nel campo delle scienze motorie sportive, con una passione radicata fin dall’infanzia per gli sport di fatica. Fin da giovane ha praticato atletica leggera, ottenendo risultati di rilievo a livello nazionale nelle categorie giovanili. Seguendo le orme del padre, ha poi coltivato un forte interesse per il ciclismo, ottenendo buoni risultati a livello amatoriale nelle principali gare nazionali e internazionali.</p>
+            <a href="#chi-sono" class="btn">Scopri di più</a>
+        </div>
+
+        <!-- Terzo div: pacchetti coaching -->
+        <div class="content-section">
+            <h2>Coaching</h2>
+            <p>Scopri i pacchetti adatti a te</p>
+        
+            <div class="coaching-packages">
+                <!-- Primo box: Pacchetto Master -->
+                <div class="package-box">
+                    <img src="https://via.placeholder.com/100x100/cc6600" alt="Medaglia di bronzo">
+                    <h3>Pacchetto Master</h3>
+                    <p>Per l'atleta amatore avanzato non esigente</p>
+                </div>
+        
+                <!-- Secondo box: Pacchetto Premium -->
+                <div class="package-box">
+                    <img src="https://via.placeholder.com/100x100/c0c0c0" alt="Medaglia d'argento">
+                    <h3>Pacchetto Premium</h3>
+                    <p>Per l'atleta amatore esigente</p>
+                </div>
+        
+                <!-- Terzo box: Pacchetto Gold -->
+                <div class="package-box">
+                    <img src="https://via.placeholder.com/100x100/ffd700" alt="Medaglia d'oro">
+                    <h3>Pacchetto Gold</h3>
+                    <p>Per l'atleta professionista</p>
+                </div>
+            </div>
+        </div>
+        
+
+            <!-- div: Test e consulenza -->
+            <div class="content-section">
+                <h2>Test e consulenza</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita cum deleniti ad amet eius architecto delectus facilis beatae, id nihil repellendus distinctio omnis, adipisci quidem! Nihil optio eius quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, aperiam modi. Ducimus, atque cupiditate perspiciatis ea vitae dignissimos iure sapiente voluptatum nemo incidunt enim labore odio illo magni, ad dicta.</p>
+                <a href="#test-consulenza" class="btn">Scopri di più</a>
+            </div>
+
+            <!-- div: Test e consulenza -->
+                <div class="content-section">
+                    <h2>Training Camp</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus expedita cum deleniti ad amet eius architecto delectus facilis beatae, id nihil repellendus distinctio omnis, adipisci quidem! Nihil optio eius quod. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, aperiam modi. Ducimus, atque cupiditate perspiciatis ea vitae dignissimos iure sapiente voluptatum nemo incidunt enim labore odio illo magni, ad dicta.</p>
+                        <a href="#training-camp" class="btn">Scopri di più</a>
+                </div>
+
+                <div class="content-section">
+                    <h2>Contattami</h2>
+                    <div class="contact-links">
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <img src="https://via.placeholder.com/40x40?text=@" alt="Email">
+                            <a href="mailto:michaelguzzi88@gmail.com">michaelguzzi88@gmail.com</a>
+                        </div>
+                
+                        <!-- Instagram -->
+                        <div class="contact-item">
+                            <img src="https://via.placeholder.com/40x40?text=IG" alt="Instagram">
+                            <a href="https://www.instagram.com/michael.guzzi.88?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">michael.guzzi.88</a>
+                        </div>
+                
+                        <!-- Facebook -->
+                        <div class="contact-item">
+                            <img src="https://via.placeholder.com/40x40?text=FB" alt="Facebook">
+                            <a href="https://www.facebook.com/michael.guzzi.98" target="_blank">michael.guzzi.98</a>
+                        </div>
+                    </div>
+                </div>
+                
+    </main>
+
+</body>
+</html>
