@@ -1,0 +1,103 @@
+/* Stili di base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Colore principale del testo */
+    background-color: #f8f8f8; /* Colore di sfondo comune */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF; /* Colore dei link */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3; /* Colore dei link al passaggio del mouse */
+}
+
+/* Header e Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8; /* Colore chiaro per il menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra sottile */
+}
+
+.logo {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Colore dei link nella navbar */
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ddd; /* Sfondo al passaggio del mouse */
+    border-radius: 5px; /* Angoli arrotondati */
+}
+
+/* Media Query per schermi piccoli */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: left;
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    nav a:last-child {
+        border-bottom: none;
+    }
+}
+
+/* Testo */
+h1, h2, h3 {
+    color: #333; /* Colore principale per i titoli */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Colore secondario per il testo */
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: disc; /* Imposta i punti come stile dell'elenco */
+    margin: 20px 0 20px 40px; /* Spaziatura intorno alla lista */
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    color: inherit; /* Inherit forza l'uso del colore del testo genitore */
+    margin-bottom: 10px; /* Spaziatura tra i punti */
+    line-height: 1.6; /* Aumenta la leggibilità */
+}
