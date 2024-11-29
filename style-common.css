@@ -97,7 +97,7 @@ ul {
 
 li {
     font-size: 18px;
-    color: inherit; /* Inherit forza l'uso del colore del testo genitore */
+    color: #666;
     margin-bottom: 10px; /* Spaziatura tra i punti */
     line-height: 1.6; /* Aumenta la leggibilità */
 }
