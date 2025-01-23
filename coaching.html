@@ -9,14 +9,21 @@
 </head>
 <body>
     <header>
-        <!-- Logo con collegamento alla home -->
-        <a href="./index.html" class="logo">Logo</a>
-
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            <img src="./logo/MG-Sportperformance-logo-sfondo-nero.png" alt="Logo Michael Guzzi">
+        </a>
+    
+        <!-- Hamburger menu -->
+        <button class="navbar-toggle" aria-label="Apri menu">
+            ☰
+        </button>
+    
         <!-- Navbar -->
-        <nav>
+        <nav class="navbar">
             <a href="./index.html">Home</a>
             <a href="./chi-sono.html">Chi Sono</a>
-            <a href="./coaching.html" class="active">Coaching</a>
+            <a href="./coaching.html">Coaching</a>
             <a href="#test-consulenza">Test e Consulenza</a>
             <a href="#training-camp">Training Camp</a>
             <a href="#contatti">Contatti</a>
@@ -94,5 +101,15 @@
     <footer>
         <p>&copy; 2024 Michael Guzzi. Tutti i diritti riservati.</p>
     </footer>
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbar = document.querySelector('.navbar');
+    
+        // Aggiungi o rimuovi la classe 'show' quando il pulsante hamburger viene cliccato
+        navbarToggle.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+        });
+    </script>
+
 </body>
 </html>

@@ -6,11 +6,12 @@ main {
 }
 
 .full-width-image {
-    width: 100%;
-    height: 60vh;
-    background-image: url('https://via.placeholder.com/1500x600'); /* URL dell'immagine */
-    background-size: cover;
-    background-position: center;
+    width: 100%; /* Occupa tutta la larghezza dello schermo */
+    height: 60vh; /* Altezza pari al 60% dell'altezza della viewport */
+    background-image: url('./img/main-pic.jpg'); /* Percorso dell'immagine */
+    background-size: cover; /* L'immagine si adatta mantenendo le proporzioni */
+    background-position: center; /* Centra l'immagine nel div */
+    background-repeat: no-repeat; /* Impedisce che l'immagine si ripeta */
 }
 
 .content-section {
@@ -85,19 +86,5 @@ main {
     color: #0056b3;
 }
 
-/* Media Query per schermi piccoli (max-width 768px) */
-@media (max-width: 768px) {
-    .content-section {
-        padding: 20px;
-    }
 
-    .coaching-packages {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .package-box {
-        width: 80%;
-        margin-bottom: 30px;
-    }
-}
