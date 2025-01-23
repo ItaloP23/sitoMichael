@@ -7,22 +7,27 @@ main {
 
 .full-width-image {
     width: 100%; /* Occupa tutta la larghezza dello schermo */
-    height: 60vh; /* Altezza pari al 60% dell'altezza della viewport */
-    background-image: url('./img/main-pic.jpg'); /* Percorso dell'immagine */
-    background-size: cover; /* L'immagine si adatta mantenendo le proporzioni */
-    background-position: center; /* Centra l'immagine nel div */
-    background-repeat: no-repeat; /* Impedisce che l'immagine si ripeta */
+    height: 100vh; /* Altezza pari all'intera altezza della finestra */
+    background-image: url('./img/img-principale.jpeg'); /* Percorso dell'immagine */
+    background-size: cover; /* Adatta l'immagine mantenendo le proporzioni */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita che l'immagine si ripeta */
+    position: absolute; /* Posiziona il div in modo assoluto */
+    top: 0; /* Fa iniziare il div dall'alto */
+    left: 0; /* Allinea il div al bordo sinistro */
+    z-index: -1; /* Posiziona l'immagine dietro la navbar */
 }
 
 .content-section {
     width: 90%;
     max-width: 1200px;
-    padding: 40px;
+    padding: 10px;
     text-align: center;
     background-color: #f0f0f0;
-    margin: 20px 0;
+    margin: 20px auto;
+    position: relative; /* Assicura che si trovi sotto l'immagine */
+    top: 75vh; /* Sposta la sezione esattamente sotto l'immagine di altezza 100vh */
 }
-
 .coaching-packages {
     display: flex;
     justify-content: space-around;
