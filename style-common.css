@@ -45,7 +45,7 @@ li {
 /* Stili base per la navbar */
 /* Header */
 .logo img {
-    width: 100px; /* Adatta la larghezza a seconda delle esigenze */
+    width: 200px; /* Adatta la larghezza a seconda delle esigenze */
     height: auto; /* Mantiene le proporzioni dell'immagine */
     display: block; /* Elimina eventuali spazi indesiderati intorno all'immagine */
 }
@@ -123,5 +123,11 @@ header {
     .navbar-toggle {
         display: block; /* Mostra il pulsante hamburger */
         z-index: 1100; /* Assicura che il pulsante sia sopra tutto */
+    }
+
+    .full-width-image {
+        background-size: contain; /* L'immagine si adatta completamente senza essere tagliata */
+        background-position: top; /* Posiziona l'immagine verso l'alto */
+        height: 70vh; /* Riduci l'altezza per migliorare la visualizzazione */
     }
 }
