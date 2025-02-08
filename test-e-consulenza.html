@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test e Consulenza - Michael Guzzi</title>
+    <link rel="stylesheet" href="./style-common.css">
+    <link rel="stylesheet" href="./style-test-consulenza.css">
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            <img src="./logo/MG Trasparente scritta nera.png" alt="Logo Michael Guzzi">
+        </a>
+
+        <!-- Hamburger menu -->
+        <button class="navbar-toggle" aria-label="Apri menu">☰</button>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./chi-sono.html">Chi Sono</a>
+            <a href="./coaching.html">Coaching</a>
+            <a href="./test-e-consulenza.html">Test e Consulenza</a>
+            <a href="./training-camp.html">Training Camp</a>
+            <a href="./contatti.html">Contatti</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sezione Test Atletici Funzionali -->
+        <section class="content-section">
+            <h1>Test Atletici Funzionali</h1>
+            <div class="content-wrapper">
+                <img src="./img/test-atletici.jpg" alt="Test atletici" class="content-image">
+                <div class="content-text">
+                    <p>Test incrementale del lattato (MADER) per determinazione soglie e zone di lavoro (potenza/passo e frequenza cardiaca) indoor o outdoor, corsa, bici o nuoto svolto presso la mia sede:</p>
+                    <ul>
+                        <li><strong>Costo:</strong> 80 € per chi non ha un pacchetto come atleta</li>
+                        <li><strong>Costo:</strong> 60 € per chi ha un pacchetto atleta attivo</li>
+                        <li>Possibilità di fare test in presenza in altro luogo a prezzo da concordare</li>
+                        <li>Il test di Mader è disponibile solo per atleti in possesso di certificato medico agonistico in corso di validità.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione Consulenza -->
+        <section class="content-section">
+            <h1>Consulenza</h1>
+            <div class="content-wrapper">
+                <img src="./img/consulenza.jpg" alt="Consulenza" class="content-image">
+                <div class="content-text">
+                    <p>Se hai bisogno di aiuto per migliorare la tua preparazione, ma non vuoi essere seguito con un percorso di coaching, questo servizio è quello che fa per te.</p>
+                    <p>Questo servizio è ideale per chi non vuole una collaborazione continuativa ma solo una consulenza spot da un occhio esterno.</p>
+                    <p>Con questo servizio metto la mia conoscenza ed esperienza a tua disposizione per aiutarti a trovare la soluzione giusta per te.</p>
+                    <p>Contattami via email per fissare una call online della durata di circa 50' su un argomento a tua scelta (es. carichi lavoro, organizzazione stagione, stesura piano gare, ecc..).</p>
+                    <ul>
+                        <li><strong>Costo:</strong> 40€</li>
+                        <li>Assistenza gare in presenza e richieste di presenza a test ed allenamenti: costo da valutare personalmente.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Michael Guzzi. Tutti i diritti riservati.</p>
+    </footer>
+    
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbar = document.querySelector('.navbar');
+
+        // Aggiungi o rimuovi la classe 'show' quando il pulsante hamburger viene cliccato
+        navbarToggle.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

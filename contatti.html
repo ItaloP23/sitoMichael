@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti - Michael Guzzi</title>
+    <link rel="stylesheet" href="./style-common.css">
+    <link rel="stylesheet" href="./style-contatti.css">
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            <img src="./logo/MG Trasparente scritta nera.png" alt="Logo Michael Guzzi">
+        </a>
+
+        <!-- Hamburger menu -->
+        <button class="navbar-toggle" aria-label="Apri menu">☰</button>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./chi-sono.html">Chi Sono</a>
+            <a href="./coaching.html">Coaching</a>
+            <a href="./test-e-consulenza.html">Test e Consulenza</a>
+            <a href="./training-camp.html">Training Camp</a>
+            <a href="./contatti.html" class="active">Contatti</a>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <h1>Contatti</h1>
+        
+        <section class="contact-intro">
+            <p>Ti interessa iniziare un percorso insieme? Hai domande sui miei servizi o vuoi saperne di più?
+               Seguimi sui miei canali social per rimanere aggiornato sulle ultime novità e contattami tramite il modulo qui sotto
+               o attraverso i miei profili social. Sarò lieto di rispondere a tutte le tue domande!</p>
+        </section>
+
+        <section class="social-links">
+            <div class="social-grid">
+                <a href="mailto:michaelguzzi88@gmail.com" class="social-item">
+                    <img src="./icons/mail-logo.png" alt="Email">
+                    <span>michaelguzzi88@gmail.com</span>
+                </a>
+                <a href="https://www.instagram.com/michael.guzzi.88" class="social-item" target="_blank">
+                    <img src="./icons/instagram-icon.png" alt="Instagram">
+                    <span>michael.guzzi.88</span>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61562917888041" class="social-item" target="_blank">
+                    <img src="./icons/facebook-icon.png" alt="Facebook">
+                    <span>michael.guzzi.98</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Modulo di Contatto</h2>
+            <form id="contactForm" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome e Cognome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Oggetto</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Messaggio</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Invia Messaggio</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Michael Guzzi. Tutti i diritti riservati.</p>
+    </footer>
+    
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbar = document.querySelector('.navbar');
+
+        navbarToggle.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

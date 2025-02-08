@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Camp - Michael Guzzi</title>
+    <link rel="stylesheet" href="./style-common.css">
+    <link rel="stylesheet" href="./style-training-camp.css">
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            <img src="./logo/MG Trasparente scritta nera.png" alt="Logo Michael Guzzi">
+        </a>
+
+        <!-- Hamburger menu -->
+        <button class="navbar-toggle" aria-label="Apri menu">☰</button>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./chi-sono.html">Chi Sono</a>
+            <a href="./coaching.html">Coaching</a>
+            <a href="./test-e-consulenza.html">Test e Consulenza</a>
+            <a href="./training-camp.html" class="active">Training Camp</a>
+            <a href="./contatti.html">Contatti</a>
+        </nav>
+    </header>
+
+    <main class="coming-soon-container">
+        <h1>Coming Soon</h1>
+        <div class="placeholder-image">
+            <!-- Qui puoi inserire la tua immagine -->
+            <!--<img src="https://via.placeholder.com/800x400" alt="Coming Soon">-->
+            <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                <!-- Sfondo -->
+                <rect width="800" height="400" fill="#f8f8f8"/>
+                
+                <!-- Montagne stilizzate (rappresentano training/outdoor) -->
+                <path d="M0 300 L200 150 L400 280 L600 180 L800 250 L800 400 L0 400 Z" fill="#e0e0e0"/>
+                <path d="M0 320 L300 200 L500 300 L700 220 L800 280 L800 400 L0 400 Z" fill="#d0d0d0"/>
+                
+                <!-- Sole/Cerchio -->
+                <circle cx="650" cy="100" r="40" fill="#007BFF" opacity="0.8"/>
+                
+                <!-- Persona stilizzata che si allena -->
+                <g transform="translate(350,200)">
+                    <!-- Testa -->
+                    <circle cx="0" cy="0" r="15" fill="#333"/>
+                    <!-- Corpo -->
+                    <line x1="0" y1="15" x2="0" y2="60" stroke="#333" stroke-width="8"/>
+                    <!-- Braccia (in posizione di corsa) -->
+                    <line x1="0" y1="30" x2="-20" y2="10" stroke="#333" stroke-width="8"/>
+                    <line x1="0" y1="30" x2="20" y2="50" stroke="#333" stroke-width="8"/>
+                    <!-- Gambe (in posizione di corsa) -->
+                    <line x1="0" y1="60" x2="-15" y2="90" stroke="#333" stroke-width="8"/>
+                    <line x1="0" y1="60" x2="15" y2="85" stroke="#333" stroke-width="8"/>
+                </g>
+                
+                <!-- Linee decorative -->
+                <line x1="100" y1="150" x2="100" y2="250" stroke="#007BFF" stroke-width="4" opacity="0.5"/>
+                <line x1="700" y1="150" x2="700" y2="250" stroke="#007BFF" stroke-width="4" opacity="0.5"/>
+            </svg>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Michael Guzzi. Tutti i diritti riservati.</p>
+    </footer>
+    
+    <script>
+        const navbarToggle = document.querySelector('.navbar-toggle');
+        const navbar = document.querySelector('.navbar');
+
+        navbarToggle.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

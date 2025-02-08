@@ -1,0 +1,36 @@
+.coming-soon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.coming-soon-container h1 {
+    font-size: 4em;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.placeholder-image {
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.placeholder-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .coming-soon-container h1 {
+        font-size: 2.5em;
+    }
+}

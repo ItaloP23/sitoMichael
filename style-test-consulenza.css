@@ -1,0 +1,62 @@
+/* Stili per le sezioni */
+.content-section {
+    width: 90%;
+    max-width: 1200px;
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Stili per il layout del contenuto */
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: justify;
+}
+
+/* Immagini nella pagina */
+.content-image {
+    width: 40%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Testo accanto alle immagini */
+.content-text {
+    width: 55%;
+}
+
+/* Liste */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Media query per schermi piccoli */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .content-image {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .content-text {
+        width: 100%;
+    }
+}
