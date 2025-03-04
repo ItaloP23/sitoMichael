@@ -44,6 +44,10 @@ li {
 
 /* Stili base per la navbar */
 /* Header */
+.logo {
+    display: flex; /* Aggiungi questa proprietà */
+    align-items: center; /* Aggiungi questa proprietà */
+}
 .logo img {
     width: 200px; /* Adatta la larghezza a seconda delle esigenze */
     height: auto; /* Mantiene le proporzioni dell'immagine */
@@ -58,6 +62,7 @@ header {
     /*background-color: rgba(255, 255, 255, 0.362); /* Sfondo bianco trasparente */
     /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra per migliorare la leggibilità */
     z-index: 1000; /* Mantiene il header sopra l'immagine */
+    align-items: center; /* Aggiungi questa proprietà per allineare verticalmente */
 }
 
 /* Pulsante hamburger */

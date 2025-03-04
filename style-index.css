@@ -18,6 +18,8 @@ main {
     z-index: -1; /* Posiziona l'immagine dietro la navbar */
 }
 
+
+
 .content-section {
     width: 90%;
     max-width: 1200px;
