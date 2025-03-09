@@ -42,27 +42,41 @@ li {
     line-height: 1.6; /* Aumenta la leggibilità */
 }
 
+/* Aggiunta di un container per centrare l'header */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 /* Stili base per la navbar */
 /* Header */
-.logo {
-    display: flex; /* Aggiungi questa proprietà */
-    align-items: center; /* Aggiungi questa proprietà */
+header {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1000; /* Mantiene il header sopra l'immagine */
+    background-color: #f8f8f8; /* Colore di sfondo dell'header */
 }
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Allinea verticalmente */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Aggiungi un po' di padding sui lati */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
     width: 200px; /* Adatta la larghezza a seconda delle esigenze */
     height: auto; /* Mantiene le proporzioni dell'immagine */
     display: block; /* Elimina eventuali spazi indesiderati intorno all'immagine */
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    position: relative;
-    /*background-color: rgba(255, 255, 255, 0.362); /* Sfondo bianco trasparente */
-    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra per migliorare la leggibilità */
-    z-index: 1000; /* Mantiene il header sopra l'immagine */
-    align-items: center; /* Aggiungi questa proprietà per allineare verticalmente */
 }
 
 /* Pulsante hamburger */
@@ -72,10 +86,6 @@ header {
     background: none;
     border: none;
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
     z-index: 1100; /* Assicura che sia visibile sopra il menu */
 }
 
@@ -89,9 +99,14 @@ header {
 .navbar a {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
+    font-size: 22px; /* Aumentato da 18px a 22px */
+    font-weight: 500; /* Aggiunto un leggero spessore per migliorare la leggibilità */
     padding: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    color: #007BFF; /* Cambio colore al passaggio del mouse */
 }
 
 /* Stile menu nascosto su schermi piccoli */
@@ -118,7 +133,8 @@ header {
         padding: 15px;
         text-align: center;
         border-bottom: 1px solid #ddd;
-        color: #333
+        color: #333;
+        font-size: 24px; /* Aumentato ulteriormente per la versione mobile */
     }
 
     .navbar a:last-child {
@@ -128,11 +144,7 @@ header {
     .navbar-toggle {
         display: block; /* Mostra il pulsante hamburger */
         z-index: 1100; /* Assicura che il pulsante sia sopra tutto */
-    }
-
-    .full-width-image {
-        background-size: contain; /* L'immagine si adatta completamente senza essere tagliata */
-        background-position: top; /* Posiziona l'immagine verso l'alto */
-        height: 70vh; /* Riduci l'altezza per migliorare la visualizzazione */
+        position: absolute;
+        right: 20px;
     }
 }
