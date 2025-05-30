@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatti - Michael Guzzi</title>
-    <link rel="stylesheet" href="./style-common.css">
+    <link rel="stylesheet" href="./style-common2.css">
     <link rel="stylesheet" href="./style-contatti.css">
 </head>
 <body>
@@ -64,12 +64,32 @@
     </footer>
     
     <script>
-        const navbarToggle = document.querySelector('.navbar-toggle');
-        const navbar = document.querySelector('.navbar');
+        // const navbarToggle = document.querySelector('.navbar-toggle');
+        // const navbar = document.querySelector('.navbar');
 
-        navbarToggle.addEventListener('click', () => {
-            navbar.classList.toggle('show');
-        });
+        // navbarToggle.addEventListener('click', () => {
+        //     navbar.classList.toggle('show');
+        // });
+        document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggle = document.querySelector('.navbar-toggle');
+    const navbar = document.querySelector('.navbar');
+    const header = document.querySelector('header');
+    const body = document.body;
+    
+    navbarToggle.addEventListener('click', function() {
+        // Toggle del menu
+        navbar.classList.toggle('show');
+        
+        // Toggle delle classi per rendere l'header fisso
+        if (navbar.classList.contains('show')) {
+            header.classList.add('menu-open');
+            body.classList.add('menu-open');
+        } else {
+            header.classList.remove('menu-open');
+            body.classList.remove('menu-open');
+        }
+    });
+});
     </script>
 </body>
 </html>

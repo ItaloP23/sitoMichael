@@ -5,20 +5,6 @@ main {
     align-items: center;
 }
 
-/* Rimuovo il vecchio stile del full-width-image che era in background */
-/* .full-width-image {
-    width: 100%;
-    height: 100vh;
-    background-image: url('./img/img-principale.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-} */
-
 /* Nuovo container per le immagini responsive */
 .responsive-image-container {
     width: 100%;

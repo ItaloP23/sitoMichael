@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="./style-common.css">
+    <link rel="stylesheet" href="./style-common2.css">
     <link rel="stylesheet" href="./style-index.css">
 
 </head>
@@ -35,7 +35,7 @@
 
         <!-- Immagine responsive che sostituisce il background a tutta larghezza -->
         <div class="responsive-image-container">
-            <img src="./img/IMMAGINE HOME PAGE SITO.jpg" alt="MG Sport Performance" class="desktop-image">
+            <img src="./img/imgPC-index-2.jpg" alt="MG Sport Performance" class="desktop-image">
             <img src="./img/imgMOB-index.jfif" alt="MG Sport Performance" class="mobile-image">
         </div>
     
@@ -125,15 +125,38 @@
                 </div>
                 
     </main>
+
+
+    <!-- <script src="navbar.js"></script> -->
     
     <script>
-        const navbarToggle = document.querySelector('.navbar-toggle');
-        const navbar = document.querySelector('.navbar');
+        // const navbarToggle = document.querySelector('.navbar-toggle');
+        // const navbar = document.querySelector('.navbar');
     
-        // Aggiungi o rimuovi la classe 'show' quando il pulsante hamburger viene cliccato
-        navbarToggle.addEventListener('click', () => {
-            navbar.classList.toggle('show');
-        });
+        // // Aggiungi o rimuovi la classe 'show' quando il pulsante hamburger viene cliccato
+        // navbarToggle.addEventListener('click', () => {
+        //     navbar.classList.toggle('show');
+        // });
+        document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggle = document.querySelector('.navbar-toggle');
+    const navbar = document.querySelector('.navbar');
+    const header = document.querySelector('header');
+    const body = document.body;
+    
+    navbarToggle.addEventListener('click', function() {
+        // Toggle del menu
+        navbar.classList.toggle('show');
+        
+        // Toggle delle classi per rendere l'header fisso
+        if (navbar.classList.contains('show')) {
+            header.classList.add('menu-open');
+            body.classList.add('menu-open');
+        } else {
+            header.classList.remove('menu-open');
+            body.classList.remove('menu-open');
+        }
+    });
+});
     </script>
 </body>
 </html>
