@@ -11,15 +11,12 @@
 
     <header>
         <div class="header-inner">
-            <!-- Logo -->
             <a href="index.html" class="logo">
                 <img src="./logo/MG Trasparente scritta nera.png" alt="Logo Michael Guzzi">
             </a>
         
-            <!-- Hamburger menu -->
             <button class="navbar-toggle" aria-label="Apri menu">☰</button>
         
-            <!-- Navbar -->
             <nav class="navbar">
                 <a href="./index.html">Home</a>
                 <a href="./chi-sono.html">Chi Sono</a>
@@ -31,41 +28,39 @@
         </div>
     </header>
 
-    <main class="coming-soon-container">
-        <h1>Coming Soon</h1>
-        <div class="placeholder-image">
-            <!-- Qui puoi inserire la tua immagine -->
-            <!--<img src="https://via.placeholder.com/800x400" alt="Coming Soon">-->
-            <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
-                <!-- Sfondo -->
-                <rect width="800" height="400" fill="#f8f8f8"/>
-                
-                <!-- Montagne stilizzate (rappresentano training/outdoor) -->
-                <path d="M0 300 L200 150 L400 280 L600 180 L800 250 L800 400 L0 400 Z" fill="#e0e0e0"/>
-                <path d="M0 320 L300 200 L500 300 L700 220 L800 280 L800 400 L0 400 Z" fill="#d0d0d0"/>
-                
-                <!-- Sole/Cerchio -->
-                <circle cx="650" cy="100" r="40" fill="#007BFF" opacity="0.8"/>
-                
-                <!-- Persona stilizzata che si allena -->
-                <g transform="translate(350,200)">
-                    <!-- Testa -->
-                    <circle cx="0" cy="0" r="15" fill="#333"/>
-                    <!-- Corpo -->
-                    <line x1="0" y1="15" x2="0" y2="60" stroke="#333" stroke-width="8"/>
-                    <!-- Braccia (in posizione di corsa) -->
-                    <line x1="0" y1="30" x2="-20" y2="10" stroke="#333" stroke-width="8"/>
-                    <line x1="0" y1="30" x2="20" y2="50" stroke="#333" stroke-width="8"/>
-                    <!-- Gambe (in posizione di corsa) -->
-                    <line x1="0" y1="60" x2="-15" y2="90" stroke="#333" stroke-width="8"/>
-                    <line x1="0" y1="60" x2="15" y2="85" stroke="#333" stroke-width="8"/>
-                </g>
-                
-                <!-- Linee decorative -->
-                <line x1="100" y1="150" x2="100" y2="250" stroke="#007BFF" stroke-width="4" opacity="0.5"/>
-                <line x1="700" y1="150" x2="700" y2="250" stroke="#007BFF" stroke-width="4" opacity="0.5"/>
-            </svg>
+    <main class="training-camp-container">
+        <h1>Training Camp</h1>
+
+        <div class="content-section">
+            <p>I CAMP sono momenti di aggregazione, divertimento e apprendimento. A disposizione degli atleti una varia scelta, sia in termini di location costi durata e distanza.</p>
         </div>
+
+        <div class="location-section">
+            <div class="location-card">
+                <img src="./img/tenerife.jpg" alt="Tenerife Training Camp">
+                <div class="location-info">
+                    <h2>TENERIFE (ISOLE CANARIE)</h2>
+                    <p>Il CAMP per eccellenza nei mesi invernali. Paesaggi vulcanici da esplorare in bici, Tenerife rappresenta il meglio soprattutto per la parte ciclismo con salite e discese infinite e paesaggi mozzafiato.</p>
+                    <p>Disponibilità di noleggio bici, accesso alla pista di atletica e alla piscina olimpionica rappresentano l’ideale per completare un CAMP di assoluto livello.</p>
+                    <p>Ambiente informale adatta ad allo sportivo, permette un mix perfetto tra divertimento e sport della durata di 5/7 giorni.</p>
+                </div>
+            </div>
+            
+            <div class="location-card">
+                <img src="./img/torbole.jpg" alt="Torbole sul Garda Training Camp">
+                <div class="location-info">
+                    <h2>TORBOLE SUL GARDA</h2>
+                    <p>Luogo comodo e utile per tutte le discipline che sia triathlon, ciclismo, podismo o nuoto. Nella zona nord del lago di Garda saremo ospiti dell’hotel Aktivhotel che presenta servizi al top come la piscina esterna da 25m riscaldata per nuotare da febbraio a novembre circondati dal verde, palestra interna alla struttura, percorsi di corsa, giri bike suggeriti appositamente in base alle nostre richieste oltre ad una zona lavaggio bici disponibile.</p>
+                    <p>3/4 giorni immersi in questo luogo per assaporare l’idea di un CAMP.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="note-section">
+            
+            <p>I CAMP SARANNO ATTIVATI AL RAGGIUNGIMENTO DI UN NUMERO MINIMO DI ATLETI E AVRANNO POSTI LIMITATI PER GARANTIRE UN SERVIZIO DI QUALITA’. CONTATTAMI PER DISPONIBILITA’ PERIODO E COSTI.</p>
+        </div>
+
     </main>
 
     <footer>
@@ -73,32 +68,23 @@
     </footer>
     
     <script>
-        // const navbarToggle = document.querySelector('.navbar-toggle');
-        // const navbar = document.querySelector('.navbar');
-
-        // navbarToggle.addEventListener('click', () => {
-        //     navbar.classList.toggle('show');
-        // });
         document.addEventListener('DOMContentLoaded', function() {
-    const navbarToggle = document.querySelector('.navbar-toggle');
-    const navbar = document.querySelector('.navbar');
-    const header = document.querySelector('header');
-    const body = document.body;
-    
-    navbarToggle.addEventListener('click', function() {
-        // Toggle del menu
-        navbar.classList.toggle('show');
-        
-        // Toggle delle classi per rendere l'header fisso
-        if (navbar.classList.contains('show')) {
-            header.classList.add('menu-open');
-            body.classList.add('menu-open');
-        } else {
-            header.classList.remove('menu-open');
-            body.classList.remove('menu-open');
-        }
-    });
-});
+            const navbarToggle = document.querySelector('.navbar-toggle');
+            const navbar = document.querySelector('.navbar');
+            const header = document.querySelector('header');
+            const body = document.body;
+            
+            navbarToggle.addEventListener('click', function() {
+                navbar.classList.toggle('show');
+                if (navbar.classList.contains('show')) {
+                    header.classList.add('menu-open');
+                    body.classList.add('menu-open');
+                } else {
+                    header.classList.remove('menu-open');
+                    body.classList.remove('menu-open');
+                }
+            });
+        });
     </script>
 </body>
 </html>
