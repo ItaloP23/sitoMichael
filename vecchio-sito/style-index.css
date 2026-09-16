@@ -1,0 +1,144 @@
+/* Stili per il main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Nuovo container per le immagini responsive */
+.responsive-image-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Stile per l'immagine desktop (rettangolare con rapporto altezza/base=1/2) */
+.desktop-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Stile per l'immagine mobile (quadrata) */
+.mobile-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: none;
+    margin: 0 auto;
+}
+
+/* Media query per mostrare l'immagine quadrata su mobile */
+@media (max-width: 768px) {
+    .desktop-image {
+        display: none;
+    }
+    .mobile-image {
+        display: block;
+    }
+}
+
+.content-section {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 20px auto;
+    position: relative;
+    /* Rimuovo il top: 75vh che posizionava in base all'immagine di sfondo */
+    /* top: 75vh; */
+}
+
+.coaching-packages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap; /* Aggiungo flex-wrap per migliorare la responsività */
+}
+
+.package-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px; /* Aggiungo margin-bottom per la visualizzazione su mobile */
+}
+
+/* Aggiungo responsività per i pacchetti su mobile */
+@media (max-width: 768px) {
+    .package-box {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.package-box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.package-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.package-box p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Stile per il pulsante */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.contact-item a {
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #0056b3;
+}

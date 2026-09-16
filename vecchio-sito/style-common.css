@@ -1,0 +1,150 @@
+/* Stili di base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Colore principale del testo */
+    background-color: #f8f8f8; /* Colore di sfondo comune */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF; /* Colore dei link */
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3; /* Colore dei link al passaggio del mouse */
+}
+
+/* Testo */
+h1, h2, h3 {
+    color: #333; /* Colore principale per i titoli */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666; /* Colore secondario per il testo */
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: disc; /* Imposta i punti come stile dell'elenco */
+    margin: 20px 0 20px 40px; /* Spaziatura intorno alla lista */
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px; /* Spaziatura tra i punti */
+    line-height: 1.6; /* Aumenta la leggibilità */
+}
+
+/* Aggiunta di un container per centrare l'header */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Stili base per la navbar */
+/* Header */
+header {
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1000; /* Mantiene il header sopra l'immagine */
+    background-color: #f8f8f8; /* Colore di sfondo dell'header */
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Allinea verticalmente */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Aggiungi un po' di padding sui lati */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px; /* Adatta la larghezza a seconda delle esigenze */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    display: block; /* Elimina eventuali spazi indesiderati intorno all'immagine */
+}
+
+/* Pulsante hamburger */
+.navbar-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1100; /* Assicura che sia visibile sopra il menu */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 22px; /* Aumentato da 18px a 22px */
+    font-weight: 500; /* Aggiunto un leggero spessore per migliorare la leggibilità */
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    color: #007BFF; /* Cambio colore al passaggio del mouse */
+}
+
+/* Stile menu nascosto su schermi piccoli */
+@media (max-width: 768px) {
+    .navbar {
+        display: none; /* Inizialmente nascosto */
+        flex-direction: column;
+        background-color: #f8f8f8;
+        position: fixed;
+        top: 150px; /* Altezza dell'header */
+        left: 0;
+        width: 100%;
+        padding: 20px 10px;
+        border-top: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000; /* Posiziona sotto il pulsante */
+    }
+
+    .navbar.show {
+        display: flex; /* Mostra il menu */
+    }
+
+    .navbar a {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        color: #333;
+        font-size: 24px; /* Aumentato ulteriormente per la versione mobile */
+    }
+
+    .navbar a:last-child {
+        border-bottom: none;
+    }
+
+    .navbar-toggle {
+        display: block; /* Mostra il pulsante hamburger */
+        z-index: 1100; /* Assicura che il pulsante sia sopra tutto */
+        position: absolute;
+        right: 20px;
+    }
+}

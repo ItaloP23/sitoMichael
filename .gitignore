@@ -1,0 +1,17 @@
+# Editor & OS temporary files
+*~
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# IDE & AI
+.gemini/
+.agents/

@@ -1,0 +1,95 @@
+Sì, e ti dico subito una cosa: **non è necessariamente un problema del tuo sito in sé**. Ho fatto una ricerca sulla query **“allenatore triathlon Bergamo”** e il tuo dominio `mgsportperformance.it` al momento non emerge tra i risultati principali che Google mi restituisce. Il sito però è indicizzato: ad esempio Google trova la tua pagina “Training Camp”. ([MG Sport Performance][1])
+
+Il punto è quindi più probabilmente **SEO locale + posizionamento per quella specifica intenzione di ricerca**.
+
+### Perché probabilmente non compari
+
+Google deve capire molto chiaramente che:
+
+> **MG SportPerformance = allenatore/preparatore di triathlon = Bergamo**
+
+Attualmente, dalle pagine che riesco a trovare, questa associazione non è abbastanza forte.
+
+Per esempio, cercando il tuo nome, Google trova LinkedIn e altre fonti che parlano di te come preparatore di triathlon/endurance e collegano la tua attività a Bergamo. ([LinkedIn][2]) Ma il tuo sito non sembra avere ancora la stessa autorevolezza nelle SERP.
+
+In pratica hai probabilmente questo problema:
+
+**Google sa chi sei → sa che fai endurance/triathlon → sa che sei collegato a Bergamo → ma non ha ancora abbastanza segnali per dire "questa è una delle migliori pagine per chi cerca allenatore triathlon Bergamo".**
+
+### E c'è una cosa che mi salta subito all'occhio
+
+Se una persona cerca:
+
+**“allenatore triathlon Bergamo”**
+
+la tua homepage dovrebbe avere chiarissimo, già nel titolo e nei contenuti:
+
+**Allenatore Triathlon a Bergamo | MG SportPerformance**
+
+e poi spiegare naturalmente:
+
+* allenatore/preparatore di triathlon
+* Bergamo e provincia
+* coaching online
+* preparazione per Sprint, Olimpico, 70.3 e Ironman
+* programmi personalizzati
+* esperienza con atleti amatori
+* qualifiche FITRI
+* eventuale attività con Millennium
+* test e valutazione
+* ciclismo/corsa/nuoto
+
+Non significa **riempire la pagina di “allenatore triathlon Bergamo”** dieci volte. Anzi, sarebbe controproducente. Significa costruire una pagina che risponda perfettamente all'intento di chi cerca quel servizio.
+
+### Ma c'è un'altra componente fondamentale: Google Business Profile
+
+Per una ricerca locale come questa, Google considera molto anche la presenza locale.
+
+Quindi vorrei verificare:
+
+**1. Hai una scheda Google Business Profile per MG SportPerformance?**
+
+**2. Come è categorizzata?**
+
+**3. Qual è l'indirizzo/area di servizio indicata?**
+
+**4. Quante recensioni hai?**
+
+**5. Le recensioni parlano effettivamente di triathlon/coaching/preparazione?**
+
+**6. Il sito è collegato alla scheda?**
+
+Questi elementi possono fare una differenza enorme nel local SEO.
+
+---
+
+### La cosa interessante è che secondo me hai già parecchio materiale
+
+Google trova già tracce esterne che ti associano a triathlon e Bergamo. Per esempio il tuo profilo LinkedIn indica MG SportPerformance e descrive la tua attività come preparatore di triathlon/endurance. ([LinkedIn][2])
+
+Quindi **non partirei da zero**.
+
+Io farei un vero e proprio **mini audit SEO del tuo sito**, guardando:
+
+* homepage
+* title e meta description
+* H1/H2
+* testi
+* pagine servizi
+* pagina triathlon
+* presenza di “Bergamo”
+* struttura URL
+* Google Business
+* velocità/mobile
+* backlink
+* indicizzazione
+* eventuali pagine che Google sta già indicizzando
+* competitor che oggi compaiono per “allenatore triathlon Bergamo”
+* soprattutto **cosa dovresti cambiare per puntare alla prima pagina**
+
+E posso farlo direttamente sul tuo `mgsportperformance.it`, non dandoti consigli SEO generici.
+
+**Se vuoi, faccio un'analisi completa del sito e ti dico esattamente cosa cambierei, pagina per pagina, per provare a posizionarti su “allenatore triathlon Bergamo”.**
+
+[1]: https://www.mgsportperformance.it/training-camp.html?utm_source=chatgpt.com "Training Camp - Michael Guzzi"
+[2]: https://it.linkedin.com/in/michael-guzzi-1b6a94a4?utm_source=chatgpt.com "MICHAEL GUZZI - MG SportPerformance | LinkedIn"

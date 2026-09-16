@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Guzzi - Sport Performance</title>
+    <link rel="stylesheet" href="./style-common2.css">
+    <link rel="stylesheet" href="./style-index.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="./logo/MG Trasparente scritta nera.png" alt="Logo Michael Guzzi">
+            </a>
+        
+            <!-- Hamburger menu -->
+            <button class="navbar-toggle" aria-label="Apri menu">☰</button>
+        
+            <!-- Navbar -->
+            <nav class="navbar">
+                <a href="./index.html">Home</a>
+                <a href="./chi-sono.html">Chi Sono</a>
+                <a href="./coaching.html">Coaching</a>
+                <a href="./test-e-consulenza.html">Test e Consulenza</a>
+                <a href="./training-camp.html">Training Camp</a>
+                <a href="./contatti.html">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+        <!-- Immagine responsive che sostituisce il background a tutta larghezza -->
+        <div class="responsive-image-container">
+            <img src="./img/imgPC-index-2.jpg" alt="MG Sport Performance" class="desktop-image">
+            <img src="./img/imgMOB-index.jfif" alt="MG Sport Performance" class="mobile-image">
+        </div>
+    
+    <!-- Primo div con immagine a larghezza schermo -->
+    <div class="full-width-image"></div>
+
+        <!-- Secondo div: Chi è Michael Guzzi -->
+        <div class="content-section">
+            <h2>Chi è Michael Guzzi?</h2>
+            <p>Sono Michael Guzzi sono da sempre un amante di tutti gli sport.
+                Fin da piccolo ho praticato nuoto, per poi passare all’età di 9 anni alla pallanuoto, sport che mi ha formato e con il quale sono cresciuto, dedicandomi da giocatore per oltre 20 anni, praticando giovanili di ottimo livello giocando diverse fasi finali nazionali e giocando in diverse categorie senior serie C, serie B, serie A2 nel corso degli anni.
+            </p>
+            <a href="./chi-sono.html" class="btn">Scopri di più</a>
+        </div>
+
+        <!-- Terzo div: pacchetti coaching -->
+        <div class="content-section">
+            <h2>Coaching</h2>
+            <p>Scopri i pacchetti adatti a te</p>
+            <a href="./coaching.html">
+            <div class="coaching-packages">
+                <!-- Primo box: Pacchetto Base -->
+                <div class="package-box">
+                    <img src="./icons/LOGO PACCHETTO BASE-mod.png" alt="Medaglia di bronzo">
+                    <h3>Pacchetto Base</h3>
+                    <!-- <p>Per l'atleta amatore avanzato non esigente</p> -->
+                </div>
+        
+                <!-- Secondo box: Pacchetto Premium -->
+                <div class="package-box">
+                    <img src="./icons/PACCHETTO PRO-mod.png" alt="Medaglia di bronzo">
+                    <h3>Pacchetto Pro</h3>
+                    <!-- <p>Per l'atleta amatore esigente</p> -->
+                </div>
+        
+                <!-- Terzo box: Pacchetto Gold -->
+                <div class="package-box">
+                    <img src="./icons/PACCHETTO GOLD-mod.png" alt="Medaglia di bronzo">
+                    <h3>Pacchetto Gold</h3>
+                    <!-- <p>Per l'atleta professionista</p> -->
+                </div>
+            </div></a>
+        </div>
+        
+
+            <!-- div: Test e consulenza -->
+            <div class="content-section">
+                <h2>Test e consulenza</h2>
+                <p>
+                    Scopri i test atletici funzionali per determinare le soglie di allenamento e ottimizzare le performance sportive. 
+                    Disponibili anche servizi di consulenza personalizzata per pianificare al meglio la stagione sportiva.
+                </p>
+                <a href="./test-e-consulenza.html" class="btn">Scopri di più</a>
+            </div>
+
+            <!-- div: Test e consulenza -->
+                <div class="content-section">
+                    <h2>Training Camp</h2>
+                    <p>
+                        Partecipa ai training camp esclusivi per vivere un'esperienza di allenamento immersiva e intensiva. 
+                        Un'opportunità per allenarsi con professionisti e migliorare la condizione fisica.
+                    </p>
+                        <a href="./training-camp.html" class="btn">Scopri di più</a>
+                </div>
+
+                <div class="content-section">
+                    <h2>Contattami</h2>
+                    <div class="contact-links">
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <img src="./icons/mail-logo.png" alt="Email">
+                            <a href="mailto:info@mgsportperformance.it">info@mgsportperformance.it</a>
+                        </div>
+                
+                        <!-- Instagram -->
+                        <div class="contact-item">
+                            <img src="./icons/instagram-icon.png" alt="Instagram">
+                            <a href="https://www.instagram.com/michael.guzzi.88" target="_blank">michael.guzzi.88</a>
+                        </div>
+                
+                        <!-- Facebook -->
+                        <div class="contact-item">
+                            <img src="./icons/facebook-icon.png" alt="Facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61562917888041" target="_blank">michael.guzzi.98</a>
+                        </div>
+                    </div>
+                </div>
+                
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Michael Guzzi. Tutti i diritti riservati.</p>
+    </footer>
+    <!-- <script src="navbar.js"></script> -->
+    
+    <script>
+        // const navbarToggle = document.querySelector('.navbar-toggle');
+        // const navbar = document.querySelector('.navbar');
+    
+        // // Aggiungi o rimuovi la classe 'show' quando il pulsante hamburger viene cliccato
+        // navbarToggle.addEventListener('click', () => {
+        //     navbar.classList.toggle('show');
+        // });
+        document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggle = document.querySelector('.navbar-toggle');
+    const navbar = document.querySelector('.navbar');
+    const header = document.querySelector('header');
+    const body = document.body;
+    
+    navbarToggle.addEventListener('click', function() {
+        // Toggle del menu
+        navbar.classList.toggle('show');
+        
+        // Toggle delle classi per rendere l'header fisso
+        if (navbar.classList.contains('show')) {
+            header.classList.add('menu-open');
+            body.classList.add('menu-open');
+        } else {
+            header.classList.remove('menu-open');
+            body.classList.remove('menu-open');
+        }
+    });
+});
+    </script>
+</body>
+</html>

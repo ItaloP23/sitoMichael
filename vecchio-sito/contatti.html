@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti - Michael Guzzi</title>
+    <link rel="stylesheet" href="./style-common2.css">
+    <link rel="stylesheet" href="./style-contatti.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="./logo/MG Trasparente scritta nera.png" alt="Logo Michael Guzzi">
+            </a>
+        
+            <!-- Hamburger menu -->
+            <button class="navbar-toggle" aria-label="Apri menu">
+                ☰
+            </button>
+        
+            <!-- Navbar -->
+            <nav class="navbar">
+                <a href="./index.html">Home</a>
+                <a href="./chi-sono.html">Chi Sono</a>
+                <a href="./coaching.html">Coaching</a>
+                <a href="./test-e-consulenza.html">Test e Consulenza</a>
+                <a href="./training-camp.html">Training Camp</a>
+                <a href="./contatti.html">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-container">
+        <h1>Contatti</h1>
+        
+        <section class="contact-intro">
+            <p>Ti interessa iniziare un percorso insieme? Hai domande sui miei servizi o vuoi saperne di più?
+               Seguimi e contattami attraverso i miei profili social. Sarò lieto di rispondere a tutte le tue domande!</p>
+        </section>
+
+        <section class="social-links">
+            <div class="social-grid">
+                <a href="mailto:info@mgsportperformance.it" class="social-item">
+                    <img src="./icons/mail-logo.png" alt="Email">
+                    <span>info@mgsportperformance.it</span>
+                </a>
+                <a href="https://www.instagram.com/michael.guzzi.88" class="social-item" target="_blank">
+                    <img src="./icons/instagram-icon.png" alt="Instagram">
+                    <span>michael.guzzi.88</span>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61562917888041" class="social-item" target="_blank">
+                    <img src="./icons/facebook-icon.png" alt="Facebook">
+                    <span>michael.guzzi.98</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Michael Guzzi. Tutti i diritti riservati.</p>
+    </footer>
+    
+    <script>
+        // const navbarToggle = document.querySelector('.navbar-toggle');
+        // const navbar = document.querySelector('.navbar');
+
+        // navbarToggle.addEventListener('click', () => {
+        //     navbar.classList.toggle('show');
+        // });
+        document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggle = document.querySelector('.navbar-toggle');
+    const navbar = document.querySelector('.navbar');
+    const header = document.querySelector('header');
+    const body = document.body;
+    
+    navbarToggle.addEventListener('click', function() {
+        // Toggle del menu
+        navbar.classList.toggle('show');
+        
+        // Toggle delle classi per rendere l'header fisso
+        if (navbar.classList.contains('show')) {
+            header.classList.add('menu-open');
+            body.classList.add('menu-open');
+        } else {
+            header.classList.remove('menu-open');
+            body.classList.remove('menu-open');
+        }
+    });
+});
+    </script>
+</body>
+</html>

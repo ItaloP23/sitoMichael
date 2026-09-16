@@ -1,0 +1,393 @@
+Perfetto. Ho fatto un secondo passaggio concentrandomi su **SEO reale, intento di ricerca e concorrenza locale**, e cambierei leggermente la diagnosi iniziale.
+
+## Il problema non è semplicemente "manca la parola Bergamo"
+
+La cosa più importante che emerge è questa:
+
+**Google trova parecchie pagine che parlano di triathlon, coaching e Bergamo, ma non sta ancora attribuendo al tuo dominio abbastanza rilevanza per la query commerciale "allenatore triathlon Bergamo".**
+
+Inoltre, la SERP è abbastanza frammentata: compaiono associazioni sportive, preparatori endurance, directory e professionisti che offrono servizi molto simili. Ad esempio, un concorrente locale come Nutribiosport dichiara esplicitamente preparazione per triathlon e attività in provincia di Bergamo, oltre a piani personalizzati e test. ([nutribiosport.it][1])
+
+Quindi **non basta essere presenti online: dobbiamo costruire una pagina molto più forte e specifica.**
+
+---
+
+# 🔴 PRIORITÀ 1 — Creare una vera landing page
+
+Questa sarebbe la modifica che farei per prima.
+
+### URL
+
+```text
+/allenatore-triathlon-bergamo/
+```
+
+### Title
+
+```text
+Allenatore Triathlon a Bergamo | MG SportPerformance
+```
+
+### H1
+
+```text
+Allenatore di Triathlon a Bergamo
+```
+
+### Meta description
+
+Qualcosa del tipo:
+
+> Preparazione personalizzata per triathlon, Ironman e 70.3 a Bergamo. Programmi di allenamento per nuoto, ciclismo e corsa, online e in presenza.
+
+**Non la farei una pagina SEO artificiale.**
+
+La farei invece diventare una vera pagina commerciale che risponde alla domanda:
+
+> "Sto cercando un allenatore di triathlon a Bergamo. Perché dovrei scegliere te?"
+
+---
+
+# 🔴 PRIORITÀ 2 — Il contenuto della pagina
+
+Io la strutturerei così:
+
+### H1
+
+**Allenatore di Triathlon a Bergamo**
+
+Introduzione di 150–250 parole.
+
+Poi:
+
+### H2
+
+**Preparazione personalizzata per il triathlon**
+
+Spieghi il tuo metodo.
+
+### H2
+
+**A chi è rivolto il coaching**
+
+* primo triathlon
+* Sprint
+* Olimpico
+* 70.3
+* Ironman
+* atleta amatore evoluto
+
+### H2
+
+**Come funziona il programma di allenamento**
+
+1. Analisi dell'atleta
+2. Definizione degli obiettivi
+3. Programmazione
+4. Monitoraggio
+5. Modifica del carico
+6. Analisi delle gare
+
+### H2
+
+**Allenamento di nuoto, ciclismo e corsa**
+
+Qui hai un'occasione enorme perché puoi spiegare che il coaching non è semplicemente "una tabella di triathlon", ma la gestione integrata delle tre discipline.
+
+### H2
+
+**Allenatore di triathlon a Bergamo e coaching online**
+
+Qui inserirei naturalmente Bergamo, provincia e coaching online.
+
+### H2
+
+**Chi è Michael Guzzi**
+
+Qui metterei qualifiche, esperienza, attività con società sportive ecc.
+
+### H2
+
+**Inizia il tuo percorso**
+
+CTA:
+
+> **Richiedi informazioni sul coaching**
+
+---
+
+# 🔴 PRIORITÀ 3 — Devi valorizzare molto di più l'autorevolezza
+
+Questo secondo me è uno dei tuoi punti forti che il sito non sta sfruttando abbastanza.
+
+Nei risultati che Google trova sul web ci sono già informazioni esterne che possono aiutarti a costruire questa autorevolezza.
+
+Per esempio, nelle fonti sportive compare il mondo FITRI/triathlon e il ruolo dei tecnici; analogamente, il web associa fortemente Bergamo a diverse realtà triathlon. ([Cus Bergamo][2])
+
+Quindi nella tua pagina **non scriverei semplicemente "sono allenatore di triathlon"**.
+
+Metterei una sezione molto chiara:
+
+> **Michael Guzzi – Allenatore e preparatore di triathlon**
+
+e sotto tutte le qualifiche **reali e verificabili**.
+
+Questo è particolarmente importante perché Google presta molta attenzione all'autorevolezza dell'autore quando una pagina riguarda competenze professionali.
+
+---
+
+# 🟠 PRIORITÀ 4 — Google Business Profile
+
+Questa per me è quasi allo stesso livello della pagina.
+
+Se hai già una scheda Google Business Profile, bisogna analizzarla.
+
+Se **non ce l'hai**, la creerei.
+
+E soprattutto non la imposterei genericamente come:
+
+> Personal trainer
+
+se non è la categoria più appropriata.
+
+Bisogna trovare la combinazione di categoria principale + servizi che rappresenti realmente la tua attività.
+
+La scheda dovrebbe contenere:
+
+**Nome**
+
+> MG SportPerformance
+
+**Descrizione**
+
+> Coaching e preparazione personalizzata per triathlon, ciclismo e corsa a Bergamo...
+
+**Servizi**
+
+* Coaching Triathlon
+* Preparazione Ironman
+* Preparazione 70.3
+* Preparazione ciclismo
+* Preparazione running
+* Analisi allenamenti
+* ecc.
+
+E soprattutto:
+
+### recensioni
+
+Le recensioni possono diventare un'arma molto potente.
+
+Una recensione come:
+
+> "Ho iniziato il percorso con Michael per preparare il mio primo Ironman..."
+
+è molto più utile, anche semanticamente, di:
+
+> "Ottimo allenatore, consigliatissimo."
+
+---
+
+# 🟠 PRIORITÀ 5 — La homepage
+
+La homepage **non deve diventare una pagina interamente SEO**.
+
+Ma deve chiarire immediatamente cosa fai.
+
+Io vorrei che sopra la piega comparisse qualcosa simile a:
+
+> **MG SportPerformance**
+>
+> ### Coaching per Triathlon, Ciclismo e Running
+>
+> Programmi di allenamento personalizzati per atleti amatori e agonisti.
+
+E subito dopo:
+
+**Triathlon | Ciclismo | Running**
+
+con link alle rispettive pagine.
+
+---
+
+# 🟠 PRIORITÀ 6 — Creerei una struttura a "cluster"
+
+Questo è più interessante ancora.
+
+Non punterei tutto su una singola keyword.
+
+Creerei:
+
+```text
+HOME
+│
+├── TRIATHLON
+│   └── Allenatore Triathlon Bergamo
+│
+├── CICLISMO
+│
+├── RUNNING
+│
+├── COACHING
+│
+├── TEST
+│
+├── TRAINING CAMP
+│
+└── CHI SONO
+```
+
+E la pagina triathlon diventerebbe il **centro del cluster**.
+
+Poi potremmo creare articoli come:
+
+**Come preparare un triathlon olimpico**
+
+**Come allenarsi per un Ironman 70.3**
+
+**Quante ore allenarsi per un Ironman**
+
+**Come distribuire nuoto, bici e corsa nella settimana**
+
+**Allenamento FTP per il triathlon**
+
+**Come iniziare a fare triathlon a Bergamo**
+
+Questi articoli non servono solamente a prendere traffico.
+
+Servono a far capire a Google:
+
+> questo sito è specializzato nel triathlon.
+
+---
+
+# 🟡 PRIORITÀ 7 — Una cosa che NON farei
+
+Non creerei subito:
+
+> /allenatore-triathlon-dalmine
+> /allenatore-triathlon-treviglio
+> /allenatore-triathlon-seriate
+> /allenatore-triathlon-brescia
+> /allenatore-triathlon-milano
+
+con lo stesso testo cambiando solamente il nome della città.
+
+È una tecnica SEO vecchia e rischia di produrre pagine inutili.
+
+Prima conquistiamo **Bergamo**.
+
+Poi eventualmente allarghiamo.
+
+---
+
+# 🟡 PRIORITÀ 8 — I tuoi training camp
+
+Qui secondo me hai un contenuto interessante.
+
+La pagina Training Camp che Google già intercetta dimostra che il sito possiede contenuti specifici sul mondo endurance. ([nutribiosport.it][1])
+
+Io la collegherei direttamente alla pagina triathlon:
+
+> **Vuoi allenarti in gruppo e migliorare la tua preparazione? Scopri i nostri Training Camp.**
+
+Questo crea una rete interna di collegamenti.
+
+---
+
+# 🟢 Una cosa interessante sui concorrenti
+
+La concorrenza non è necessariamente composta da enormi siti SEO.
+
+Questo è positivo.
+
+La SERP comprende realtà molto diverse: professionisti, associazioni, directory e siti sportivi. Per esempio CUS Bergamo ha una presenza molto forte per l'associazione con il triathlon sul territorio. ([Cus Bergamo][2])
+
+Questo significa che **un sito personale ben ottimizzato e con una forte autorevolezza locale può competere**.
+
+Non devi battere "Nike" o "Decathlon".
+
+Devi diventare per Google:
+
+> **uno dei riferimenti locali per il coaching triathlon a Bergamo.**
+
+---
+
+# 📊 Il piano che farei io
+
+### Fase 1 — questa settimana
+
+**1.** Creare `/allenatore-triathlon-bergamo/`
+
+**2.** Ottimizzare homepage
+
+**3.** Sistemare pagina "Chi sono"
+
+**4.** Inserire collegamenti interni tra le pagine
+
+**5.** Sistemare Google Business Profile
+
+---
+
+### Fase 2 — prossime 2–4 settimane
+
+Creare 3 contenuti:
+
+**① Come iniziare il triathlon a Bergamo**
+
+**② Come preparare un Ironman 70.3**
+
+**③ Come organizzare l'allenamento di un triatleta amatore**
+
+Tutti collegati alla pagina principale.
+
+---
+
+### Fase 3 — 1–3 mesi
+
+Costruire autorevolezza:
+
+* recensioni
+* link da società sportive
+* link da eventi
+* collaborazioni
+* articoli
+* interviste
+* profili professionali
+* citazioni del tuo nome + MG SportPerformance + Bergamo
+
+---
+
+# 🎯 Obiettivo
+
+Non fisserei come unico KPI:
+
+> "Voglio essere primo per allenatore triathlon Bergamo."
+
+Guarderei contemporaneamente:
+
+| Keyword                        | Obiettivo |
+| ------------------------------ | --------- |
+| allenatore triathlon bergamo   | 🥇        |
+| preparatore triathlon bergamo  | 🥇        |
+| coaching triathlon bergamo     | 🥇        |
+| allenatore ironman bergamo     | 🥇        |
+| preparazione triathlon bergamo | 🥇        |
+| coach triathlon bergamo        | 🥇        |
+
+E soprattutto controllerei **Google Search Console**.
+
+Perché potrebbe esserci una situazione molto interessante: magari oggi **sei già impressionato per alcune query ma non ricevi clic**, e questo ci permetterebbe di capire esattamente cosa Google sta già associando al sito.
+
+---
+
+## Il prossimo passaggio che ti consiglio
+
+A questo punto farei qualcosa di ancora più utile: **non limitarmi all'analisi esterna**, ma analizzare **ogni pagina del tuo sito attuale** e costruire una tabella:
+
+**URL → Title attuale → H1 attuale → problema → keyword target → Title nuovo → H1 nuovo → azione da fare.**
+
+In pratica ti consegnerei una **checklist operativa da dare direttamente a chi gestisce il sito**, con i testi SEO già pronti dove necessario.
+
+[1]: https://www.nutribiosport.it/?utm_source=chatgpt.com "Nutribiosport | Marco Corti Biologo Nutrizionista"
+[2]: https://cusbergamo.it/?utm_source=chatgpt.com "Home"

@@ -1,0 +1,79 @@
+/* Stili per la sezione Coaching */
+.coaching-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.coaching-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.coaching-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.coaching-packages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.package-box {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.package-box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.package-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.package-box p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Media Query per schermi piccoli */
+@media (max-width: 768px) {
+    .coaching-packages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .package-box {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+.package-box ul {
+    list-style-type: disc; /* Elenco con punti */
+    margin: 20px 0 0 20px; /* Margine a sinistra per indentazione */
+    padding: 0;
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+.package-box ul li {
+    font-size: 16px; /* Dimensione leggermente inferiore rispetto al testo principale */
+    color: #666; /* Colore secondario per migliorare leggibilità */
+    margin-bottom: 10px; /* Spaziatura tra gli elementi */
+    line-height: 1.5; /* Spaziatura verticale per leggibilità */
+}
+
