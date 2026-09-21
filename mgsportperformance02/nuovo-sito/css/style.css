@@ -874,7 +874,75 @@ textarea.form-control {
     background-color: rgba(12, 13, 16, 0.06);
     padding: 4px 12px;
     border-radius: var(--radius-sm);
+    margin-bottom: 8px;
+}
+
+.package-annual-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #0c0d10;
+    background-color: rgba(204, 255, 0, 0.25);
+    border: 1px solid rgba(204, 255, 0, 0.6);
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
     margin-bottom: 24px;
+    line-height: 1.35;
+}
+
+.package-annual-badge svg {
+    flex-shrink: 0;
+    color: #0c0d10;
+}
+
+.annual-discount-banner {
+    margin-top: 48px;
+    background-color: #ffffff;
+    border: 1px solid var(--color-light-border);
+    border-left: 4px solid var(--color-accent-lime);
+    border-radius: var(--radius-md);
+    padding: 28px 32px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.annual-discount-banner .annual-discount-tag {
+    font-family: var(--font-heading);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0c0d10;
+    background: var(--color-accent-lime);
+    padding: 4px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.annual-discount-banner h3 {
+    font-size: 1.35rem;
+    margin-bottom: 6px;
+    color: var(--color-text-dark);
+}
+
+.annual-discount-banner p {
+    font-size: 0.98rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .annual-discount-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px 20px;
+    }
 }
 
 .package-features {
