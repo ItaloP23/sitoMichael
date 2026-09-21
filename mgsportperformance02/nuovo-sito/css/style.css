@@ -963,6 +963,10 @@ textarea.form-control {
     line-height: 1.5;
 }
 
+.package-features li > span {
+    flex: 1;
+}
+
 .package-features svg {
     width: 18px;
     height: 18px;
