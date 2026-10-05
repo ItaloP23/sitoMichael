@@ -1076,6 +1076,41 @@ textarea.form-control {
     width: 100%;
 }
 
+.footer-bottom > * {
+    flex: 1 1 0;
+}
+
+.footer-bottom > *:first-child {
+    text-align: left;
+}
+
+.footer-bottom > *:last-child {
+    text-align: right;
+}
+
+.footer-credit {
+    color: var(--color-text-white-muted);
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-credit strong {
+    color: var(--color-text-white);
+    font-weight: 600;
+}
+
+.footer-credit a {
+    color: var(--color-text-white);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+.footer-credit a:hover {
+    color: var(--color-accent-lime);
+}
+
 /* ==========================================================================
    Page & Helper Components
    ========================================================================== */
@@ -1455,10 +1490,16 @@ textarea.form-control {
 
     .footer-bottom {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        text-align: center;
         gap: 10px;
         padding-top: 20px;
         font-size: 0.85rem;
+    }
+
+    .footer-bottom > * {
+        flex: auto;
+        text-align: center !important;
     }
 
     .section-padding {
